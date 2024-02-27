@@ -1,4 +1,7 @@
-/* Qual a diferença entre var, let e const no quesito a re-declaração?
+/*
+[Variáveis]
+
+Qual a diferença entre var, let e const no quesito a re-declaração?
 var: permite re-declarar
 let: não permite re-declarar
 const: não permite re-declarar

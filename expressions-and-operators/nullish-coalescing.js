@@ -1,4 +1,4 @@
-{
+
   const foo = null ?? "default string";
   console.log(foo);
 
@@ -16,4 +16,4 @@
   console.log(valueA);
   console.log(valueB);
   console.log(valueC);
-}
+

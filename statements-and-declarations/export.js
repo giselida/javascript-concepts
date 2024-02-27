@@ -9,7 +9,7 @@ export class User {}
 
 // Exportando múltiplos membros
 
-const john, jane = 2
+const john = 1, jane = 2;
 export { john, jane }
 
 // Exportando via destructuring com renaming
