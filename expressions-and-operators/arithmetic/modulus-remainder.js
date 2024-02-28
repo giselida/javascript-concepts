@@ -1,3 +1,9 @@
+/*
+[Módulo] (%)
+
+O módulo retorna o resto de uma divisão. Muito útil em algoritmos.
+*/
+
 const x = 5;
 const y = 2;
 const z = x % y;
