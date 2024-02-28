@@ -6,6 +6,9 @@ Em um grupo aninhado de funções, acessar as variáveis ​​que são declarad
 
 Em palavras simples, o JavaScript procura variáveis de uma forma: se não conseguir encontrar uma variável em seu contexto de execução local, ele irá procurá-la em seu contexto de chamada. E se não for encontrado em seu contexto de chamada. Repetidamente, até olhar no contexto de execução global. E se não encontrar então, é undefined.
 ​
+Escopo léxico ocorre quando temos um aninhamento de funções.
+
+Significa dizer que funções aninhadas podem acessar variáveis dentro de outros blocos de funções ao qual façam parte.
 */
 //Escopo léxico
 

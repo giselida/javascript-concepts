@@ -1,4 +1,13 @@
-// Exporting membros individuais
+/*
+[Export]
+
+A declaração de exportação é usada para exportar valores de um módulo JavaScript. Os valores exportados podem então ser importados para outros programas com a declaração de importação ou importação dinâmica. O valor de uma ligação importada está sujeito a alterações no módulo que a exporta — quando um módulo atualiza o valor de uma ligação que exporta, a atualização ficará visível no seu valor importado.
+
+Usado para exportar funções para disponibilizá-las para importação em módulos externos e outros scripts.
+*/
+
+
+// exportação de membros individuais
 export const name = "John";
 
 export function getName() {
@@ -12,7 +21,7 @@ export class User {}
 const john = 1, jane = 2;
 export { john, jane }
 
-// Exportando via destructuring com renaming
+// Exportando via desestruturação com renomeação
 
 const person = {
     name: "John",
@@ -22,7 +31,7 @@ const person = {
 
 export const { name: firstName, age: userAge } = person;
 
-// Default export
+// Exportação padrão
 
 export default function sayHi() {
     console.log("Hi");
@@ -31,4 +40,3 @@ export default function sayHi() {
 // Re-exportando módulos
 
 export * from "./export-module";
-

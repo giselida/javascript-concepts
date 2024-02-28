@@ -1,14 +1,15 @@
-// A High Order Function is a function that return another function, or a function that
-// takes another function as an argument.
+// Uma função de alta ordem é uma função que retorna outra função, ou uma função que
+// pega outra função como argumento.
 
-// Returning a function from a function
+//Retornando uma função de uma função
 function add(a, b) {
   return () => a + b;
 }
 
 add(2, 3)();
 
-// takes a function as an argument
+// recebe uma função como argumento
+
 function multiply(a, b, doneFn) {
   const multiply = a * b;
   doneFn(multiply);
