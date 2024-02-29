@@ -1,6 +1,12 @@
 // Unary delete operator
 // remove uma propriedade de um objeto
 // caso a mesma não seja uma Non-configurable property
+//O operador delete exclui a propriedade de um objeto. A sintaxe é:
+/*
+delete object.property;
+delete object[propertyKey];
+delete objectName[index];
+ */
 
 {
   const employee = {

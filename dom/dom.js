@@ -33,13 +33,14 @@ O DOM é como uma árvore genealógica, porém, de forma invertida. O elemento q
 
 [Hierarquia do DOM]
 
-[Documento:] o objeto raiz que representa todo o documento;
+[Document:]
+Quando um documento HTML é carregado no navegador da Web, torna-se um objeto de documento. O objeto de documento é o nó raiz do documento HTML e o "dono" de todos os outros nós.
 
-[Elementos:] representam tags HTML. Por exemplo: <div>, <p>, <a>, etc.;
+[Element:] representam tags HTML. Por exemplo: <div>, <p>, <a>, etc.;
 
-[Atributos:] são propriedades que os elementos podem ter. Por exemplo: class, id, href, etc.;
+[Attribute:] O objeto atributo representa um atributo que pertence sempre a um elemento HTML. Por exemplo: class, id, href, etc.;
 
-[Textos:] representam o conteúdo textual dentro das tags;
+[Text:] representam o conteúdo textual dentro das tags, texto que vai entre os elementos, o conteúdo das tags (<p>este é um texto</p>).
 
 [Comentários e outros tipos:] como comentários (<!-- comentário -->) ou declarações de tipo de documento (<!DOCTYPE html>).
 

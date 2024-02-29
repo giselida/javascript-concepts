@@ -5,5 +5,5 @@ O operador de atribuição de divisão (/=) realiza a divisão nos dois operando
 */
 
 let number = 10;
-number %= 3;
+number /= 3;
 console.log(number); // 1

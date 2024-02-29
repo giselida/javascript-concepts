@@ -7,5 +7,5 @@ O operador de atribuição (=) é usado para atribuir um valor a uma variável o
 
 let x = 3;
 const y = x--;
-console.log(x, y);// 2 3
+console.log(x, y); // 2 3
 

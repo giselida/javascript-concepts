@@ -1,5 +1,6 @@
 /*
 [Array](Lista)
+
 Esta é uma estrutura que permite armazenar vários valores em uma única referência 
 Arrays são objetos especiais que permitem armazenar vários valores em uma única variável. Eles são indexados numericamente.
 */
