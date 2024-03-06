@@ -1,3 +1,7 @@
+/*
+O construtor Function() cria objetos Function. Chamar o construtor diretamente pode criar funções dinamicamente, mas sofre de segurança e problemas de desempenho semelhantes (mas muito menos significativos) aos de eval(). No entanto, diferentemente de eval (que pode ter acesso ao escopo local), o construtor Function cria funções que são executadas apenas no escopo global.
+*/
+
 function Foo() {
   this.id = 20;
 }
@@ -29,9 +33,9 @@ function Categoria(nome) {
   this.totalProdutos = 0;
   this.nome = nome;
   const self = this;
-    atualizaTotalProdutos () {
-      self.totalProdutos += 1;
-    };
+  function atualizaTotalProdutos() {
+    self.totalProdutos += 1;
+  }
   atualizaTotalProdutos();
 }
 

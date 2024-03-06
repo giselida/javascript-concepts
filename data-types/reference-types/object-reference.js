@@ -1,6 +1,8 @@
 /*
 [Object]
 
+Objeto: um objeto é um tipo de dados não primitivo em javascript que usamos para armazenar dados em um formato de valor-chave. A maioria dos objetos em javascript são derivados do protótipo Object
+
 Pode ser qualquer coisa. Tudo em JavaScript é um objeto e pode ser armazenado em uma variável. Tenha isso em mente enquanto aprende.   
  
 Os objetos são estruturas de dados complexas que podem conter várias propriedades e métodos. Eles são fundamentais em JavaScript

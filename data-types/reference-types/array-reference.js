@@ -1,7 +1,9 @@
 /*
 [Array](Lista)
 
+Array: Em geral, é uma lista de valores indexados numericamente na ordem de entrada; Em JavaScript, é um objeto exótico que mantém chaves de propriedade de índice de array chamadas de elemento e uma propriedade não configurável chamada comprimento, e cada array é derivado deste objeto Array herdando todas as suas propriedades como push, pop, slice, map, shift , e muitos mais.
 Esta é uma estrutura que permite armazenar vários valores em uma única referência 
+
 Arrays são objetos especiais que permitem armazenar vários valores em uma única variável. Eles são indexados numericamente.
 
 O objeto Array do JavaScript é um objeto global usado na construção de 'arrays': objetos de alto nível semelhantes a listas.
