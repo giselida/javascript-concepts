@@ -1,15 +1,20 @@
-{
-  /* String.Prototype.indexOf
+/* 
+[indexOf]
 
-retorna a posição da primeira ocorrência de um valor especificado em uma string.*/
+retorna a primeira posição de um determinado pedaço dentro de uma string, indexOf retorna a primeira ocorrência.(inicio da string)
 
-  const message = "Hello world, welcome to the universe.";
-  let result = message.indexOf("world");
-  console.log(result);
+String.Prototype.indexOf
 
-  result = message.indexOf("to");
-  console.log(result);
+retorna a posição da primeira ocorrência de um valor especificado em uma string.
 
-  result = message.indexOf("world", 10);
-  console.log(result);
-}
+*/
+
+const message = "Hello world, welcome to the universe.";
+let result = message.indexOf("world");
+console.log(result);
+
+result = message.indexOf("to");
+console.log(result);
+
+result = message.indexOf("world", 10);
+console.log(result);
